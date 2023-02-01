@@ -43,7 +43,7 @@ namespace Deliverable_3
                     if (series == "Odd")
                     {
                         Console.WriteLine("You have selected the " + series + " series. The numbers between 0 and " + input + " are:");
-                        for (int i = 0; i <= input; i = i + 2)
+                        for (int i = 1; i <= input; i = i + 2)
                         {
                             Console.WriteLine(i);
                         }
